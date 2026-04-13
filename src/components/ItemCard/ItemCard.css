@@ -1,3 +1,8 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
 .card {
   width: 323px;
   position: relative;
@@ -9,13 +14,15 @@
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: white;
+  color: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
-  width: 73px;
+  padding: 0 8px; /* instead of fixed width */
   height: 24px;
   top: 15px;
   margin: 0;
-  font-style: Bold;
+  font-family: CabinetGrotesk, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
