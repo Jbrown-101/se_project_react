@@ -18,7 +18,7 @@
   background-color: white;
   color: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
-  padding: 0 8px; /* instead of fixed width */
+  padding: 0 8px;
   height: 24px;
   top: 15px;
   margin: 0;
