@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 42px 24px 40px;
+}
+
+.footer__developer {
+  position: relative;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__year {
+  position: relative;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
