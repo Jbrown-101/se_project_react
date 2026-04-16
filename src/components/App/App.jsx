@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
-import Footer from "../Footer/Footer"
+import Footer from "../Footer/Footer";
 import ModalWithForm from "../ModalWithForm/ModalWithForm";
 import ItemModal from "../ItemModal/ItemModal";
 import { getWeather, filterWeatherData } from "../../utils/weatherApi";
-import { coorinates, APIkey } from "../../utils/constants";
+import { coordinates, apiKey } from "../../utils/constants";
 
 function App() {
   const [weatherData, setWeatherData] = useState({
@@ -32,7 +32,7 @@ function App() {
   };
 
   useEffect(() => {
-    getWeather(coorinates, APIkey)
+    getWeather(coordinates, apiKey)
       .then((data) => {
         const filteredData = filterWeatherData(data);
         setWeatherData(filteredData);
