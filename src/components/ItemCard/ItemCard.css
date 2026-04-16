@@ -24,12 +24,11 @@
   margin: 0;
   font-family: CabinetGrotesk, sans-serif;
   font-size: 16px;
-  line-height: 20px;
 }
 
 .card__image {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   width: 100%;
 }

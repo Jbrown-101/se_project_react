@@ -1,3 +1,8 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
 .weather-card {
   position: relative;
   display: flex;
@@ -8,11 +13,15 @@
 
 .weather-card__temp {
   font-size: 36px;
-  line-height: 40px;
   margin: 0;
   position: absolute;
   top: 20px;
   left: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  vertical-align: middle;
 }
 
 .weather-card__image {

@@ -27,7 +27,6 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
 }
 
 .modal__title {
@@ -36,7 +35,13 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+}
+
+.modal__caption {
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
 }
 
 .modal__close {
@@ -54,9 +59,32 @@
   padding: 28px 28px 36px;
   max-width: 496px;
   box-sizing: border-box;
-  border: 1px solid #0000004D;
+  border: 1px solid #0000004d;
   width: 100%;
   border-radius: 20px;
+}
+
+.modal__content_type_image {
+  width: 498px;
+  height: 610px;
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__image {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+
+.modal__weather {
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
 }
 
 .modal__form {
@@ -70,7 +98,6 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
 }
 
 .modal__input {
@@ -84,7 +111,6 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
 }
 
 .modal__label_type_radio {
@@ -92,7 +118,6 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
   color: #00000080;
 }
 
@@ -115,6 +140,13 @@
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
   cursor: pointer;
+}
+
+.modal__footer {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #ffffff;
 }

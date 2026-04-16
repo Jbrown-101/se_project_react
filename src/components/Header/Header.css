@@ -1,21 +1,40 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
 .header {
   display: flex;
   align-items: center;
   padding: 32px 0 28px;
 }
 
+.header__avatar {
+  height: 40px;
+  width: 40px;
+}
+
 .header__logo {
-    margin-right: 24px;
+  margin-right: 24px;
+  padding-bottom: 10px;
 }
 
 .header__date-and-location {
   margin: 0;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .header__add-clothes-btn {
   margin-left: auto;
   margin-right: 20px;
   margin: 0 20px 0 auto;
+  border: none;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .header__user-container {
@@ -26,4 +45,7 @@
 
 .header__username {
   margin: 0;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
