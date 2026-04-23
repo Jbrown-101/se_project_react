@@ -26,10 +26,15 @@
   font-size: 20px;
 }
 
-.header__add-clothes-btn {
+.header__controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   margin-left: auto;
-  margin-right: 20px;
-  margin: 0 20px 0 auto;
+}
+
+.header__add-clothes-btn {
+  margin-left: 0;
   border: none;
   font-family: CabinetGrotesk, sans-serif;
   font-weight: 700;
