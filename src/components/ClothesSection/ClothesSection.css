@@ -1,7 +1,4 @@
-@font-face {
-  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
-  font-family: "CabinetGrotesk";
-}
+
 
 .clothes-section {
   display: flex;

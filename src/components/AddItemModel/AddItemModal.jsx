@@ -12,8 +12,14 @@ const AddItemModal = ({ isOpen, onAddItem, onClose }) => {
 
   function handleSubmit(evt) {
     evt.preventDefault();
-    onAddItem(values);
-    handleReset();
+    if (!values.weatherType) return;
+    onAddItem(values)
+      .then(() => {
+        handleReset();
+      })
+      .catch((error) => {
+        console.error("Failed to add item:", error);
+      });
   }
 
   return (

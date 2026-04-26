@@ -1,8 +1,3 @@
-@font-face {
-  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
-  font-family: "CabinetGrotesk";
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -18,7 +13,6 @@
   margin-right: 24px;
   cursor: pointer;
 }
-
 
 .header__date-and-location {
   margin: 0;

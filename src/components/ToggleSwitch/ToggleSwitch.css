@@ -1,8 +1,3 @@
-@font-face {
-  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
-  font-family: "CabinetGrotesk";
-}
-
 .toggle-switch {
   width: 56px;
   height: 28px;
