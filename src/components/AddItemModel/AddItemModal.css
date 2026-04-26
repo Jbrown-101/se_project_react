@@ -1,0 +1,7 @@
+.modal__radio-input {
+  accent-color: black;
+}
+
+.modal__label_type_radio:has(input:checked) {
+  color: black;
+}

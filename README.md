@@ -32,4 +32,4 @@ Responsive layout - the interface adapts cleanly across screen sizes
 
 - [Figma Design](https://www.figma.com/file/DTojSwldenF9UPKQZd6RRb/Sprint-10%3A-WTWR)
 
-- [Project Pitch](https://www.loom.com/share/7de27255414645f7b8098a69025f65c2)
+- [Project Pitch](https://www.loom.com/share/5f3501176cb64279818dac6c44c32e80)

@@ -1,0 +1,235 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal_opened {
+  visibility: visible;
+}
+
+.modal__label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal__title {
+  margin: 0;
+  padding-bottom: 24px;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal__caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__content {
+  background-color: white;
+  position: relative;
+  padding: 28px 28px 36px;
+  max-width: 496px;
+  box-sizing: border-box;
+  border: 1px solid #0000004d;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.modal__content_type_image {
+  width: 498px;
+  height: 610px;
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__image {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+
+.modal__weather {
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal__legend {
+  padding-bottom: 12px;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal__input {
+  margin-top: 8px;
+  width: 100%;
+  height: 24px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal__label_type_radio {
+  padding-bottom: 8px;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #00000080;
+}
+
+.modal__radio-buttons {
+  margin-bottom: 32px;
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: CabinetGrotesk, sans-serif;
+}
+
+.modal__submit {
+  color: white;
+  background-color: #000;
+  border-radius: 4px;
+  border: none;
+  width: 124px;
+  height: 36px;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal__delete-btn {
+  width: 98px;
+  height: 13px;
+  display: flex;
+  justify-content: flex-end;
+  background: none;
+  border: none;
+  color: rgba(255, 77, 0, 1);
+  cursor: pointer;
+  font-family: CabinetGrotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.modal__confirm-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.modal__confirm-close-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.modal__confirm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal__confirm-box {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 670px;
+  height: 280px;
+}
+
+.modal__confirm-text {
+  width: 364px;
+  height: 48px;
+  text-align: center;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 60px;
+}
+
+.modal__confirm-yes {
+  width: 138px;
+  height: 24px;
+  background: none;
+  border: none;
+  color: rgba(255, 77, 0, 1);
+  cursor: pointer;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal__confirm-cancel {
+  width: 61px;
+  height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}

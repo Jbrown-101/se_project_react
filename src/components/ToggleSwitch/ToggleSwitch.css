@@ -1,11 +1,23 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
 .toggle-switch {
   width: 56px;
   height: 28px;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(126, 126, 126, 1);
   border-radius: 20px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.toggle-switch:hover {
+  border: 2px solid black;
 }
 
 .toggle-switch__checkbox {
@@ -33,7 +45,7 @@
 }
 
 .toggle-switch__text_C {
-  right: 9px;
+  right: 10px;
 }
 
 .toggle-switch__checkbox:checked ~ .toggle-switch__circle {
