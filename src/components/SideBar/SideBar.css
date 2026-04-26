@@ -1,0 +1,30 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 236px;
+}
+
+.sidebar__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar__avatar {
+  width: 56px;
+  height: 56px;
+}
+
+.sidebar__username {
+  margin: 0;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}

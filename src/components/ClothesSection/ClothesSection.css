@@ -1,0 +1,57 @@
+@font-face {
+  src: url("../../vendor/fonts/CabinetGrotesk-Variable.ttf") format("woff");
+  font-family: "CabinetGrotesk";
+}
+
+.clothes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.clothes-section__row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.clothes-section__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 21px;
+}
+
+.clothes-section__list .card {
+  width: 100%;
+}
+
+.clothes-section__list .card__image {
+  height: 328px;
+  object-fit: contain;
+  object-fit: cover;
+}
+
+.clothes-section__items {
+  position: relative;
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.clothes-section__button {
+  width: 88px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: CabinetGrotesk, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
