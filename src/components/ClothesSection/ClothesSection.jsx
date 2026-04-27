@@ -15,15 +15,9 @@ export default function ClothesSection({
         </button>
       </div>
       <ul className="clothes-section__list">
-        {clothingItems
-          .filter((item) => item.weather === weatherData.type)
-          .map((item) => (
-            <ItemCard
-              key={item._id}
-              item={item}
-              onCardClick={handleCardClick}
-            />
-          ))}
+        {clothingItems.map((item) => (
+          <ItemCard key={item._id} item={item} onCardClick={handleCardClick} />
+        ))}
       </ul>
     </div>
   );

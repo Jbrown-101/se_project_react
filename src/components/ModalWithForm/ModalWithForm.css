@@ -70,8 +70,8 @@
 }
 
 .modal__image {
-  width: 100%;
-  flex: 1;
+  max-width: 100%;
+  max-height: 498px;
   object-fit: cover;
 }
 
